@@ -68,8 +68,3 @@ print("day" in today)
 print("Mon" in today)  # Case Sensitive
 print("Thur" in today)
 print("parrot" in "fjord")
-
-
-
-
-
