@@ -19,7 +19,7 @@ if guess < 5:
     else:
         print('Sorry, you have not guessed correctly.')
 elif guess > 5:
-    print('P;ease guess lower')
+    print('Please guess lower')
     guess = int(input())
     if guess == 5:
         print('Well done, you guessed it')
