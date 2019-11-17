@@ -1,4 +1,5 @@
-__author__ = 'dev'
+__author__ = 'Michael Miles'
+import PyPDF2
 # greeting = "Michael"
 # _myName = "Mike"
 # Mike57 = "Good"
