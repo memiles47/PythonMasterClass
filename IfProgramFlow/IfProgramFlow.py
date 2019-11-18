@@ -1,5 +1,5 @@
 __author__ = 'Michael E Miles'
-import PyPDF2 as P2
+import PyPDF2 as p2
 # name = input('Pleas enter your name: ')
 # age = int(input('How old are you, {}? '.format(name)))
 # print(age)

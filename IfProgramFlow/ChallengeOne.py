@@ -1,4 +1,5 @@
 __author__ = 'Michael E Miles'
+import PyPDF2 as p2
 # Write a small program to ask for a name and an age.
 # When both values have been entered, check if the person
 # is the right age to go on an 18-30 holiday (they must be
