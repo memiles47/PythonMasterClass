@@ -4,7 +4,7 @@ __author__ = 'Michael E Miles'
 # Create a program that takes an IP address entered at the keyboard
 # and prints out the number of segments it contains, and the length of each segment.
 
-# An IP address consists of 4 numbers, separated from eachh other with a full stop. But
+# An IP address consists of 4 numbers, separated from each other with a full stop. But
 # your program should just count however many are entered
 
 # Example of the input you may get are:
@@ -30,6 +30,28 @@ __author__ = 'Michael E Miles'
 # approach we're looking for here.
 #
 
+charCount = 0
+rng = 0
+segCount = 0
+firstCharCheck = True
+
+
 ip = input('Enter and IP address: ')
 
-for char in ip:
+if ip == '':
+    print('IP address is blank')
+
+for i in range(rng, len(ip)):
+    # print(i)
+    if ip[0] == '.' and firstCharCheck:
+        firstCharCheck = False
+        print('First character is a full stop')
+    elif ip[i] != '.':
+        charCount += 1
+    elif ip[i] == '.':
+        segCount += 1
+        print('Segment: {}, Characters: {}'.format(segCount, charCount))
+        charCount = 0
+if ip != '':
+    print('Segment: {}, Characters: {}'.format(segCount + 1, charCount))
+# ****************** FINISHED *************************
