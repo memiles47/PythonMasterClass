@@ -1,4 +1,5 @@
 __author__ = 'Michael E Miles'
+# It seems like you can keep using IdeaJ even after the expiration.
 # import PyPDF2 as p2
 import random
 
