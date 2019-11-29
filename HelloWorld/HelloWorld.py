@@ -1,4 +1,4 @@
-__author__ = 'dev'
+__author__ = 'Michael E Miles'
 print('Hello, World!')
 print(1 + 2)
 print(7 * 6)
