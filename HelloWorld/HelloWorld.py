@@ -12,3 +12,4 @@ name = "Michael"
 print(greeting + name)
 # if we want a space, we can add that too
 print(greeting + ' ' + name)
+# print("For some reason I keep getting an error")
