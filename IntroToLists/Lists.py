@@ -1,7 +1,7 @@
 __author__ = 'Michael E Miles'
 # import PyPDF2 as p2
 
-# ipAddress = input("Please enter and IP address: ")
+# ipAddress = input("Please enter an IP address: ")
 # print(ipAddress.count("."))
 
 parrotList = ["non pinin'", "no more", "a stiff", "bereft of life"]
@@ -14,6 +14,8 @@ oddNumbers = [1, 3, 5, 7, 9, 11]
 
 numbers = oddNumbers + evenNumbers
 unsortedNumbers = numbers
+print(numbers)
+print(sorted(numbers))
 print(numbers)
 numbers.sort()
 print(numbers)
