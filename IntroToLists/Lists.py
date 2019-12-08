@@ -4,19 +4,28 @@ __author__ = 'Michael E Miles'
 # ipAddress = input("Please enter an IP address: ")
 # print(ipAddress.count("."))
 
-parrotList = ["non pinin'", "no more", "a stiff", "bereft of life"]
-parrotList.append("A Norwegian Blue")
-for state in parrotList:
-    print("This parrot is " + state)
+# parrotList = ["non pinin'", "no more", "a stiff", "bereft of life"]
+# parrotList.append("A Norwegian Blue")
+# for state in parrotList:
+#     print("This parrot is " + state)
+#
+# evenNumbers = [2, 4, 6, 8, 10]
+# oddNumbers = [1, 3, 5, 7, 9, 11]
+#
+# numbers = oddNumbers + evenNumbers
+# unsortedNumbers = numbers
+# print(numbers)
+# print(sorted(numbers))
+# print(numbers)
+# numbers.sort()
+# print(numbers)
+# print(sorted(unsortedNumbers))
 
-evenNumbers = [2, 4, 6, 8, 10]
-oddNumbers = [1, 3, 5, 7, 9, 11]
+list1 = []  # Creates an empty list using an empty list
+list2 = list()  # Creates an empty list using the list() constructor
 
-numbers = oddNumbers + evenNumbers
-unsortedNumbers = numbers
-print(numbers)
-print(sorted(numbers))
-print(numbers)
-numbers.sort()
-print(numbers)
-print(sorted(unsortedNumbers))
+print("List 1: {}".format(list1))
+print("List 2: {}".format(list2))
+
+if list1 == list2:
+    print("The lists are equal")
