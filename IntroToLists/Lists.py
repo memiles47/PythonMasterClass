@@ -21,11 +21,30 @@ __author__ = 'Michael E Miles'
 # print(numbers)
 # print(sorted(unsortedNumbers))
 
-list1 = []  # Creates an empty list using an empty list
-list2 = list()  # Creates an empty list using the list() constructor
+# list1 = []  # Creates an empty list using an empty list
+# list2 = list()  # Creates an empty list using the list() constructor
+#
+# print("List 1: {}".format(list1))
+# print("List 2: {}".format(list2))
+#
+# if list1 == list2:
+#     print("The lists are equal")
+#
+# print(list("The lists are equal"))
+#
+# even = [2, 4, 6, 8]
+#
+# anotherEven = even
+# anotherEven.sort(reverse=True)
+# print(even)
 
-print("List 1: {}".format(list1))
-print("List 2: {}".format(list2))
+even = [2, 4, 6, 8]
+odd = [1, 3, 5, 7, 9]
 
-if list1 == list2:
-    print("The lists are equal")
+numbers = [even, odd]
+print(numbers)
+
+for numbersSet in numbers:
+    print(numbersSet)
+    for value in numbersSet:
+        print(value)
