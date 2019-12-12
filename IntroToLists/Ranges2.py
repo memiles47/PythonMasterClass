@@ -1,4 +1,5 @@
 __author__ = 'Michael E Miles'
+# Use only with PyCharm
 
 decimals = range(100)
 myRange = decimals[3:40:3]
@@ -9,5 +10,3 @@ print(list(range(0, 6, 2)))
 
 r = range(100)
 print(r)
-
-
